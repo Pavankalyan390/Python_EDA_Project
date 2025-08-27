@@ -13,3 +13,35 @@
 3. Identify the trends across the different country.
 4. Detect churn customers and Analyze RFM.
 
+---
+
+## Dataset
+
+ **InvoiceNo:**      
+ **StockCode:**       
+ **Description:**         
+ **Quantity:**         
+ **InvoiceDate:**
+ **UnitPrice:**      
+ **CustomerID:**       
+ **Country:**  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
