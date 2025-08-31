@@ -16,16 +16,26 @@
 ---
 
 ## Dataset
+- **Invoiceno:** Unique invoiceno 
+- **StockCode:** It's an item code or a product code
+- **Description:** The Name of the item or product
+- **Quantity:** The Total Quantity of the item bought
+- **InvoiceDate:** Date of purchase of the item/product
+- **UnitPrice:** Unit Price for each item/product
+- **CustomerID:** ID for each customer who bought an item from the store
+- **Country:** Where the item/product was purchased
 
- **InvoiceNo:**      
- **StockCode:**       
- **Description:**         
- **Quantity:**         
- **InvoiceDate:**
- **UnitPrice:**      
- **CustomerID:**       
- **Country:**  
+## Workflow
 
+### 1. Data Cleaning
+- **Handle missing values:** `Description`, `CustomerID` columns had null values
+- **Fix Description using mode:** picked specific `StockCode` and fixed their Description based on frequent using `Description.mode()`
+- **Add Index:** The way this function works will short the records which has the highest counts will appear at the top.
+- **Using Groupby:** Performed a group by on this particular dataframe using `StockCode`. It shows the most frequent valid description along with the counts.
+
+  ### 2. Feature Engineering
+  - **Add TotalSales:** Created a new column in the table as `TotalSales`, calculated as `Quantity * UnitPrice`
+  
 
 
 
