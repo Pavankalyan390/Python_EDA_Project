@@ -54,7 +54,11 @@
 
 ## Imported FireDucks to analyze how much time taken to read the file
 - To see Calculated the total time taken to read the file
-     ``print(f"[{pd.__name__}] total time taken: {time.time() - stime} sec")``
+```
+print(f"[{pd.__name__}] total time taken: {time.time() - stime} sec")
+```
+
+
 
 
 
