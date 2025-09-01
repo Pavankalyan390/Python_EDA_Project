@@ -58,6 +58,21 @@
 print(f"[{pd.__name__}] total time taken: {time.time() - stime} sec")
 ```
 
+## Screenshots
+
+**In Pandas time taken is 319 sec**
+
+<img width="1920" height="955" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/673b8caf-6b4c-43db-8d01-d1ea60590923" />
+
+
+
+#
+**In FireDucks time taken is 103 sec**
+
+<img width="1920" height="968" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/fe711afb-2704-4ff9-9758-14725fc4a130" />
+
+## Conclusion
+This project enables me to work in python to analyze large amount of data and this project is only for educational purpose and might have some duplicate data aka 'not real data'. By using EDA techniques, I identified key trends and using charts analyzed the best performing countires, customers, etc...
 
 
 
